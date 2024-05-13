@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+body{
+  background-color:#f9f6ee;
+}
+
+@font-face{
+  font-family: 'Chubby';
+  src:url('Fonts/Chubbo-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'General';
+  src:url('Fonts/GeneralSans-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Public';
+  src:url('Fonts/PublicSans-Light.ttf');
+}
+@font-face{
+  font-family: 'Wood';
+  src:url('Fonts/PPWoodland-Bold.otf');
+}
+@font-face{
+  font-family: 'Wood-Light';
+  src:url('Fonts/PPWoodland-Ultralight.otf');
+}
