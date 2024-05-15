@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
+import { GoArrowRight } from "react-icons/go";
 
 
 const Projects = () => {
@@ -52,7 +53,7 @@ const row1 =[
         <div className="grid grid-cols-1 gap-x-2 gap-y-4 mb-20 sm:grid-cols-2 m-10 " style={{fontFamily:"Public"}}>
             <div className="w-full h-70 bg-lime-200 text-black text-center p-10 rounded-[20px] shadow-lg ">
                 <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">If you want to see other projects I've been working on, you can take a look on my GitHub... </p>
-                <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub</a></div>
+                <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub<GoArrowRight className='arrow inline ml-2 ' /></a></div>
             </div>
             <div className="w-full h-70 bg-violet-200 text-black text-center p-10 rounded-[20px] shadow-lg">
                 <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">In each of my projects, I've been working on the front-end integration and the user interface development, in order to deliver functional and user-friendly solutions.</p>
