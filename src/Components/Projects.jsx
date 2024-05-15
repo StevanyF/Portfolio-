@@ -11,7 +11,7 @@ const ImageCard = ({ image, title, description, techStack, link}) => (
         <div className="px-6 py-4" style={{fontFamily:"Public"}}>
             <div className="font-bold text-xl mb-2 text-violet-500 ">{title}</div>
             <p className="text-black text-base">{description}</p>
-            <div className="text-black ">{techStack}</div>
+            <div className="text-black font-semibold">{techStack}</div>
         </div>
       </a>
     </div>
@@ -42,17 +42,17 @@ const row1 =[
   return (
     <div id='projects' className=' mt-10 rounded-[20px]'>
 
-        <h1 className='text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10' style={{fontFamily:"Wood"}}>Selected Projects</h1>
+        <h1 className='text-3xl sm:text-4xl lg:text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10 ' style={{fontFamily:"Wood"}}>Selected Projects</h1>
         <div className="flex flex-wrap justify-center items-center space-y-2 rounded-[20px] ">
             <ImageCard image= "img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
             <ImageCard image= "img/horoscope.jpg" title="Relias" description="Website for a daily horoscope" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
-            <ImageCard image= "img/surf2.jpg" title="Surf-Spots (en cours...)" description="Mobile app to discover surf-spots" techStack="Kotlin, Android Studio" />
+            <ImageCard image= "img/surf2.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin, Android Studio" />
         </div>
        
         <div className="grid grid-cols-1 gap-x-2 gap-y-4 mb-20 sm:grid-cols-2 m-10 " style={{fontFamily:"Public"}}>
             <div className="w-full h-70 bg-lime-200 text-black text-center p-10 rounded-[20px] shadow-lg ">
-                <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">If you want to see other projects that I've been working on, you can take a look on my GitHub to see the code source</p>
-                <div className='mt-10'><a className='p-2 border-2 border-black rounded-[30px]  uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub</a></div>
+                <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">If you want to see other projects I've been working on, you can take a look on my GitHub... </p>
+                <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub</a></div>
             </div>
             <div className="w-full h-70 bg-violet-200 text-black text-center p-10 rounded-[20px] shadow-lg">
                 <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">In each of my projects, I've been working on the front-end integration and the user interface development, in order to deliver functional and user-friendly solutions.</p>
