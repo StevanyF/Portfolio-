@@ -8,15 +8,6 @@ body{
   background-color:#f9f6ee;
 }
 
-@font-face{
-  font-family: 'Chubby';
-  src:url('Fonts/Chubbo-Bold.ttf');
-}
-
-@font-face{
-  font-family: 'General';
-  src:url('Fonts/GeneralSans-Bold.ttf');
-}
 
 @font-face{
   font-family: 'Public';

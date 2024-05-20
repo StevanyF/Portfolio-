@@ -58,7 +58,7 @@ const Projects = () => {
             <ImageCard image= "img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
             <ImageCard image= "img/horoscope.jpg" title="Relias" description="Website for a daily horoscope" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
             <ImageCard image= "img/surf2.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
-            <ImageCard image= "img/snake_game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" />
+            <ImageCard image= "img/snake_game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
         </div>
      
 
@@ -68,7 +68,7 @@ const Projects = () => {
             <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub<GoArrowRight className='arrow inline ml-2 ' /></a></div>        
           </div>         
           <div className="w-full h-70 bg-violet-200 text-black text-center p-10 rounded-[20px] shadow-lg" >  
-            <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">In each of my projects, I've been working on the front-end integration and the user interface development, in order to deliver functional and user-friendly solutions.</p>            
+            <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">In each of my projects, I've been working on front-end integration and user interface development, in order to deliver functional and user-friendly solutions.</p>            
           </div>          
         </div>
        
@@ -152,6 +152,7 @@ const Wrapper = styled.div `
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding:1rem;
   
 `
 const Text = styled.div `
@@ -182,7 +183,7 @@ const common = css`
   align-items: center;
   white-space: nowrap;
   width: 100%; 
-  animation : ${scrollX} 15s linear infinite;
+  animation : ${scrollX} 20s linear infinite;
 `
 
 const MarqueeGroup = styled.div`
@@ -199,7 +200,7 @@ const ImageGroup = styled.div `
   display: grid;
   place-items: center;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
-  padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) /10);
+  padding:1rem;
 
 
  `
