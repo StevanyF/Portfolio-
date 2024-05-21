@@ -22,7 +22,7 @@ const About = () => {
           scale: scaleProgress,
         }}>
             <div className='section flex flex-col justify-center items-center mt-10 gap-x-4 '>
-                <img className='size-60' src='img/business-3d-black-young-woman-in-glasses-sitting-and-drinking-coffee-with-eyes-closed.png' alt='me' />
+                <img className='size-60' src='/img/business-3d-black-young-woman-in-glasses-sitting-and-drinking-coffee-with-eyes-closed.png' alt='me' />
                 <div className='box flex flex-col space-y-8 m-10 ' >
                     <div><h1 className='title text-violet-600 uppercase text-3xl sm:text-6xl lg:text-6xl font-bold'style={{fontFamily:"Wood"}} >Things about me (3.)</h1></div>
                     <div className='description space-y-2 w-full text-base sm:text-base md:text-lg lg:text-xl' style={{fontFamily:"Public"}}>

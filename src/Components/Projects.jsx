@@ -10,7 +10,9 @@ const Projects = () => {
   const ImageCard = ({ image, title, description, techStack, link}) => (
       <div className="max-w-[300px]  overflow-hidden mr-6 ">
         <a href={link} target="_blank"  rel="noopener noreferrer">
-          <img className="w-full rounded-[10px] hover:border-2 border-black " src={image} alt="Card image" />
+          <div className="container hover:border-2 border-black">
+            <img className="w-full rounded-[10px]  " src={image} alt="Card image" />
+          </div>        
           <div className="px-6 py-4" style={{fontFamily:"Public"}}>
               <div className="font-bold text-xl mb-2 text-violet-500 ">{title}</div>
               <p className="text-black text-base">{description}</p>
@@ -55,10 +57,10 @@ const Projects = () => {
               
         <h1 className='text-3xl sm:text-4xl lg:text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10 ' style={{fontFamily:"Wood"}}>Selected Projects</h1>
         <div className="flex flex-wrap justify-center items-center space-y-2 rounded-[20px] ">
-            <ImageCard image= "img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
-            <ImageCard image= "img/horoscope.jpg" title="Relias" description="Website for a daily horoscope" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
-            <ImageCard image= "img/surf2.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
-            <ImageCard image= "img/snake_game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
+            <ImageCard image= "/img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
+            <ImageCard image= "/img/horoscope.jpg" title="Relias" description="Website for a daily horoscope" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
+            <ImageCard image= "/img/surf2.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
+            <ImageCard image= "/img/snake_game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
         </div>
      
 

@@ -9,17 +9,18 @@ body{
 }
 
 
+
 @font-face{
   font-family: 'Public';
-  src:url('Fonts/PublicSans-Light.ttf');
+  src:url('/Fonts/PublicSans-Light.ttf');
 }
 @font-face{
   font-family: 'Wood';
-  src:url('Fonts/PPWoodland-Bold.otf');
+  src:url('/Fonts/PPWoodland-Bold.otf');
 }
 @font-face{
   font-family: 'Wood-Light';
-  src:url('Fonts/PPWoodland-Ultralight.otf');
+  src:url('/Fonts/PPWoodland-Ultralight.otf');
 }
 
 .link {
@@ -46,4 +47,20 @@ body{
 
 .link:active {
   transform: scale(0.9);
+}
+
+.container{
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+
+.container:hover img{
+  
+  transform:scale(1.3)
+}
+
+.container img{
+  transition: all 0.5s;
 }
