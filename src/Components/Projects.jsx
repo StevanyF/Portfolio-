@@ -10,7 +10,7 @@ const Projects = () => {
   const ImageCard = ({ image, title, description, techStack, link}) => (
       <div className="max-w-[300px]  overflow-hidden mr-6 ">
         <a href={link} target="_blank"  rel="noopener noreferrer">
-          <div className="container hover:border-2 border-black">
+          <div className="container shadow-md">
             <img className="w-full rounded-[10px]  " src={image} alt="Card image" />
           </div>        
           <div className="px-6 py-4" style={{fontFamily:"Public"}}>
@@ -23,9 +23,9 @@ const Projects = () => {
       );
 
   const row1 =[
-    "https://banner2.cleanpng.com/20190129/vxi/kisspng-javascript-web-applications-scalable-vector-graphi-5c50fcc8cdff26.2471555315488114648438.jpg",
-    "https://e7.pngegg.com/pngimages/390/229/png-clipart-logo-html5-brand-design-text-logo.png",
-    "https://e7.pngegg.com/pngimages/603/759/png-clipart-css3-cascading-style-sheets-logo-html-world-wide-web-blue-angle-thumbnail.png",
+    "https://i0.wp.com/pediaa.com/wp-content/uploads/2018/10/Difference-Between-Java-and-JavaScript_Figure-1.png?resize=454%2C500",
+    "https://i0.wp.com/pediaa.com/wp-content/uploads/2018/10/Difference-Between-HTML-and-CSS_Figure-2.jpg?fit=512%2C512&ssl=1",
+    "https://www.softfluent.fr/wp-content/uploads/2019/10/css-3.png",
     "https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-512.png",
     "https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-976x1024-eobwqz2q.png",
     "https://miro.medium.com/v2/resize:fit:1400/1*xOqCfciF90c8nH0HhMpapQ.png",
@@ -58,18 +58,18 @@ const Projects = () => {
         <h1 className='text-3xl sm:text-4xl lg:text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10 ' style={{fontFamily:"Wood"}}>Selected Projects</h1>
         <div className="flex flex-wrap justify-center items-center space-y-2 rounded-[20px] ">
             <ImageCard image= "/img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
-            <ImageCard image= "/img/horoscope.jpg" title="Relias" description="Website for a daily horoscope" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
-            <ImageCard image= "/img/surf2.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
-            <ImageCard image= "/img/snake_game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
+            <ImageCard image= "/img/scorpio.jpg" title="Relias" description="Daily horoscope website" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
+            <ImageCard image= "https://i.pinimg.com/564x/5f/e2/0e/5fe20e7d89578f034c5aa582c203c86f.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
+            <ImageCard image= "/img/game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
         </div>
      
 
-        <div className="grid grid-cols-1 gap-x-2 gap-y-4 mb-20 sm:grid-cols-2 m-10 " style={{fontFamily:"Public"}}>          
-          <div className="w-full h-70 bg-lime-200 text-black text-center p-10 rounded-[20px] shadow-lg ">
+        <div className="grid grid-cols-1 gap-x-2 gap-y-4 mb-20 mt-20 sm:grid-cols-2 lg:m-10  " style={{fontFamily:"Public"}}>          
+          <div className="w-full h-70 text-black text-center p-10 rounded-[20px] border-2 border-black shadow-lg ">
             <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">If you want to see other projects I've been working on, you can take a look on my GitHub... </p>
             <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub<GoArrowRight className='arrow inline ml-2 ' /></a></div>        
           </div>         
-          <div className="w-full h-70 bg-violet-200 text-black text-center p-10 rounded-[20px] shadow-lg" >  
+          <div className="w-full h-70 text-black text-center p-10 rounded-[20px] bg-lime-200 shadow-lg" >  
             <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">In each of my projects, I've been working on front-end integration and user interface development, in order to deliver functional and user-friendly solutions.</p>            
           </div>          
         </div>

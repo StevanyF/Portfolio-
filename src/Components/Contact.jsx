@@ -14,7 +14,7 @@ const Contact = () => {
 
           <div className='section_1 flex justify-center items-center space-x-4  py-4 text-black uppercase text-sm sm:text-base md:text-lg lg:text-2xl' style={{fontFamily:"Public"}}>
               <a href='https://www.linkedin.com' className='link ' >Linkedin</a>
-              <a href='https://github.com' className='link ' >Github</a>              
+              <a href='https://github.com/StevanyF' className='link ' >Github</a>              
           </div>
         </div>         
       </div>

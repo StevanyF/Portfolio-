@@ -6,8 +6,8 @@
 
 body{
   background-color:#f9f6ee;
+  
 }
-
 
 
 @font-face{
@@ -22,6 +22,8 @@ body{
   font-family: 'Wood-Light';
   src:url('/Fonts/PPWoodland-Ultralight.otf');
 }
+
+
 
 .link {
   position: relative;
@@ -53,7 +55,6 @@ body{
   overflow: hidden;
   border-radius: 10px;
 }
-
 
 
 .container:hover img{
