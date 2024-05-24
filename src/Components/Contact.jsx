@@ -13,8 +13,8 @@ const Contact = () => {
             <p className='text-2xl text-black/80'>stevanym96@gmail.com</p>
 
           <div className='section_1 flex justify-center items-center space-x-4  py-4 text-black uppercase text-sm sm:text-base md:text-lg lg:text-2xl' style={{fontFamily:"Public"}}>
-              <a href='https://www.linkedin.com' className='link ' >Linkedin</a>
-              <a href='https://github.com/StevanyF' className='link ' >Github</a>              
+              <a href='https://www.linkedin.com/in/stevany-ouedraogo-508669251' className='link' target='_blank' >Linkedin</a>
+              <a href='https://github.com/StevanyF' className='link' target='_blank' >Github</a>              
           </div>
         </div>         
       </div>

@@ -57,7 +57,7 @@ const Projects = () => {
               
         <h1 className='text-3xl sm:text-4xl lg:text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10 ' style={{fontFamily:"Wood"}}>Selected Projects</h1>
         <div className="flex flex-wrap justify-center items-center space-y-2 rounded-[20px] ">
-            <ImageCard image= "/img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
+            <ImageCard  image= "/img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
             <ImageCard image= "/img/scorpio.jpg" title="Relias" description="Daily horoscope website" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
             <ImageCard image= "https://i.pinimg.com/564x/5f/e2/0e/5fe20e7d89578f034c5aa582c203c86f.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
             <ImageCard image= "/img/game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
