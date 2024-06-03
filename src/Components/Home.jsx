@@ -14,7 +14,8 @@ const Home = () => {
                   <p className=' text-2xl sm:text-4xl md:text-3xl lg:text-4xl md:ml-2 mt-5 lg:ml-60 leading-normal font-semibold text-lime-300'>_a Front-End Developer based in Paris</p>
               </h1>
           </div>          
-      </div>           
+      </div> 
+              
     </div>
     )
 }

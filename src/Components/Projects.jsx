@@ -53,18 +53,18 @@ const Projects = () => {
   
   
   return (
-    <div id='projects' className=' mt-10 rounded-[20px]'>
+    <div id='projects' className='projects mt-10 rounded-[20px]'>
               
         <h1 className='text-3xl sm:text-4xl lg:text-4xl text-violet-600 uppercase leading-loose font-bold mb-10 ml-10 ' style={{fontFamily:"Wood"}}>Selected Projects</h1>
         <div className="flex flex-wrap justify-center items-center space-y-2 rounded-[20px] ">
             <ImageCard  image= "/img/chaise.jpeg" title="Les Chaises Volantes" description="E-commerce website" techStack="SQL, Tailwind, React, Node.js" link="https://plateforme-vente-meubles-chaisesvolantes-front.vercel.app/" />
-            <ImageCard image= "/img/scorpio.jpg" title="Relias" description="Daily horoscope website" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/proj.html"/>
+            <ImageCard image= "/img/scorpio.jpg" title="Relias" description="Daily horoscope website" techStack="JavaScript" link="https://stevanyf.github.io/Relias/Relias/index.html"/>
             <ImageCard image= "https://i.pinimg.com/564x/5f/e2/0e/5fe20e7d89578f034c5aa582c203c86f.jpg" title="Surf-Spots (work in progress...)" techStack="Kotlin" />
             <ImageCard image= "/img/game.jpg" title="Snake game" description="Online game" techStack="JavaScript " link="https://stevanyf.github.io/Snake_game/" /> 
         </div>
      
 
-        <div className="grid grid-cols-1 gap-x-2 gap-y-4 mb-20 mt-20 sm:grid-cols-2 lg:m-10  " style={{fontFamily:"Public"}}>          
+        <div className="decription grid grid-cols-1 gap-x-2 gap-y-4 mb-20 mt-20 sm:grid-cols-2 lg:m-10  " style={{fontFamily:"Public"}}>          
           <div className="w-full h-70 text-black text-center p-10 rounded-[20px] border-2 border-black shadow-lg ">
             <p className="text-base sm:text-base md:text-lg lg:text-xl font-semibold text-left">If you want to see other projects I've been working on, you can take a look on my GitHub... </p>
             <div className='mt-10'><a className='link uppercase text-black text-sm sm:text-base md:text-lg lg:text-2xl' href='https://github.com/StevanyF'>My GitHub<GoArrowRight className='arrow inline ml-2 ' /></a></div>        

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='contact' className='mt-20 '>  
+    <div id='contact' className='contact mt-20 '>  
       <div className='section flex justify-center items-center'>
         <div className='section_1 space-y-4 '>
             <img className='w-80 lg:ml-60 md:ml-50' src='/img/3d-hygge-colleagues-discussing-the-project.png' alt='me' />
